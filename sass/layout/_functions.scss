@@ -1,0 +1,33 @@
+.functions {
+  padding-top: 0px;
+
+  &__list {
+    display: flex;
+  }
+  &__item {
+    position: relative;
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+    background-color: $paragraph-background-color;
+  }
+}
